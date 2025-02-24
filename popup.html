@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedIn Profile Data</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container">
+        <h3>LinkedIn Profile Data</h3>
+
+        <label>Profile Name:</label>
+        <input type="text" id="profileName" readonly>
+        <button id="copyNameButton">📋 Copy Name</button>
+
+        <label>Position (Job Title):</label>
+        <input type="text" id="profilePosition" readonly>
+        <button id="copyPositionButton">📋 Copy Position</button>
+
+        <label>Location:</label>
+        <input type="text" id="profileLocation" readonly>
+        <button id="copyLocationButton">📋 Copy Location</button>
+
+        <label>Profile Image URL:</label>
+        <input type="text" id="imageUrl" readonly>
+        <button id="copyImageButton">📋 Copy URL</button>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
